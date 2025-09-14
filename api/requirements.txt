@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+SQLAlchemy[asyncio]==2.0.35
+asyncpg==0.29.0
+redis==5.0.8
+celery[redis]==5.3.6
+stripe==8.10.0
+prometheus-client==0.20.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+orjson==3.10.7

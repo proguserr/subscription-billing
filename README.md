@@ -4,7 +4,7 @@
 A pragmatic, production-oriented billing stack: FastAPI + PostgreSQL + Redis + Celery + Vite/React admin UI. Deployed on Railway.
 
 **Live Admin UI:** `https://static-production-518e.up.railway.app`  
-**Status:** API/Workers healthy; scheduled billing via Celery Beat; dashboards via Grafana (optional).
+**Status:** API/Workers healthy; scheduled billing via Celery Beat; dashboards via Grafana.
 
 ---
 
@@ -135,7 +135,7 @@ flowchart LR
 
 ---
 
-## 7) Debugging story (real incident)
+## 7) Debugging story 
 
 **Symptom**: API crashed on Railway with `psycopg2` import errors.  
 **Root cause**: DSN used `postgresql+asyncpg://` but the first import path in SQLAlchemy attempted `psycopg2`.  

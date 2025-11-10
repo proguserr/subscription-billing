@@ -1,4 +1,4 @@
-# SPEC-03-Subscription-Billing
+# Subscription-Billing
 
 ## Background
 
